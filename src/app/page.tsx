@@ -89,6 +89,7 @@ export default function Page() {
             <HeroFlex
               imagePath="bg7"
               reverse={true}
+              last={true}
             >
               <div>
                 <p className="text-white font-bold text-lg mb-4">Uma aula inédita que vai te ensinar como utilizar a sabedoria milenar Judaica para enfrentar os problemas psicológicos, sociais e espirituais para criar uma Vida Leve e Feliz!</p>

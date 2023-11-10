@@ -10,9 +10,10 @@ interface HeroFlexProps {
     imagePath?: string
     href?: string
     cta?: string
+    last?: boolean
 }
 
-export default function HeroFlex({ children, imagePath, reverse, title, subtitle, topTitle, href, cta }: HeroFlexProps) {
+export default function HeroFlex({ last, children, imagePath, reverse, title, subtitle, topTitle, href, cta }: HeroFlexProps) {
     return (
         <div className={`z-10 flex flex-col items-center gap-4 sm:gap-12 ${reverse ? 'sm:flex-row-reverse' : 'sm:flex-row'}`}>
             <div className="w-full sm:w-1/2 flex flex-col gap-2">
@@ -26,8 +27,8 @@ export default function HeroFlex({ children, imagePath, reverse, title, subtitle
                     // </div>
                 )}
             </div>
-            <div className="w-full sm:w-1/2 flex justify-end">
-                <img src={`./images/${imagePath}.webp`} alt={title} />
+            <div className={`w-full sm:w-1/2 flex ${last ? 'justify-center' : 'justify-end'}`}>
+                <img src={`./images/${imagePath}.webp`} alt={title} className={`${last && 'w-[72%]'}`} />
             </div>
         </div>
     )
