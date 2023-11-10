@@ -7,7 +7,7 @@ export default function HeaderFlex() {
     useEffect(() => {
         if (cont === 0) {
             const script = document.createElement('script');
-            script.src = 'https://lauromts.activehosted.com/f/embed.php?id=53';
+            script.src = 'https://lauromts.activehosted.com/f/embed.php?id=57';
             script.type = 'text/javascript';
             script.charset = 'utf-8';
             script.async = true;
@@ -24,7 +24,7 @@ export default function HeaderFlex() {
                     <h1 className="lg:text-[44px] sm:text-4xl text-[24px] font-extrabold text-my jazmin">Uma aula que irá revelar <span className="grad-main">os segredos da Torah</span> capazes de criar uma <span className="grad-main">autoestima inabalável</span> e viver com um propósito certo</h1>
                     <p className="text-my sm:text-lg sm:font-medium inter"><strong>Você se sente perdido</strong>, sem um propósito claro de vida, lutando contra a baixa autoestima/autoconfiança e está enfrentando dificuldades para lidar com os desafios emocionais? <strong>Essa aula é para você</strong>!</p>
                     <div className="w-full max-w-sm flex flex-col text-center">
-                        <div className="_form_53 w-full sm:max-w-sm h-[186px]"></div>
+                        <div className="_form_57 w-full sm:max-w-sm h-[186px]"></div>
                         {/* <Button className="grad-main-bg">Quero garantir minha vaga</Button> */}
                         <p className="font-bold mt-2 text-my text-sm sm:text-base">100% gratuito para quem estiver online</p>
                     </div>
