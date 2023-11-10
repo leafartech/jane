@@ -1,20 +1,35 @@
-import Button from "../Button";
 
-export default function HeaderFlex() {
+import { ReactNode } from "react"
+
+interface HeroFlexProps {
+    children?: ReactNode
+    title?: string
+    topTitle?: string
+    subtitle?: string
+    reverse?: boolean
+    imagePath?: string
+    href?: string
+    cta?: string
+    last?: boolean
+}
+
+export default function HeroFlex({ last, children, imagePath, reverse, title, subtitle, topTitle, href, cta }: HeroFlexProps) {
     return (
-        <header className="sm:bg relative min-h-screen w-full flex justify-center">
-            <div className="w-full max-w-7xl flex items-end pb-12 sm:pb-0 sm:grid sm:grid-cols-2 gap-2 sm:items-center px-4 sm:px-0">
-                <div className="flex flex-col gap-2 sm:gap-4 z-10">
-                    <h1 className="lg:text-[44px] sm:text-4xl text-3xl font-extrabold text-white sm:text-my jazmin">Uma aula que irá revelar <span className="grad-main">os segredos da Torah</span> capazes de criar uma <span className="grad-main">autoestima inabalável</span> e viver com um propósito certo</h1>
-                    <p className="sm:text-my text-zinc-100 text-lg sm:font-medium"><strong>Você se sente perdido</strong>, sem um propósito claro de vida, lutando contra a baixa autoestima/autoconfiança e está enfrentando dificuldades para lidar com os desafios emocionais? <strong>Essa aula é para você</strong>!</p>
-                    <div className="w-full max-w-sm flex flex-col text-center">
-                        <Button className="grad-main-bg">Quero garantir minha vaga</Button>
-                        <p className="font-bold mt-2 sm:text-my text-white">100% gratuito para quem estiver online</p>
-                    </div>
-                </div>
-                <img src="./images/bg8.png" alt="" className="h-full absolute top-0 right-0" />
-                {/* <img src="./images/bg2.webp" alt="" className="h-full absolute top-0 right-0" /> */}
+        <div className={`z-10 flex flex-col items-center gap-4 sm:gap-12 ${reverse ? 'sm:flex-row-reverse' : 'sm:flex-row'}`}>
+            <div className="w-full sm:w-1/2 flex flex-col gap-2">
+                <h4 className="text-zinc-600">{topTitle}</h4>
+                <h2 className="font-bold text-3xl">{title}</h2>
+                <h4 className="text-zinc-600 text-lg">{subtitle}</h4>
+                {children}
+                {href && (
+                    // <div className="w-full">
+                        <a href={href} className="py-2 rounded-md bg-zinc-600 sm:w-96 text-white font-medium text-sm text-center">{cta}</a>
+                    // </div>
+                )}
             </div>
-        </header>
+            <div className={`w-full sm:w-1/2 flex ${last ? 'justify-center' : 'justify-end'}`}>
+                <img src={`./images/${imagePath}.webp`} alt={title} className={`${last && 'w-[72%]'}`} />
+            </div>
+        </div>
     )
 }
