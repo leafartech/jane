@@ -18,7 +18,7 @@ export default function HeaderFlex() {
     }, []);
 
     return (
-        <header className="bg relative h-[596px] sm:min-h-screen w-full flex justify-center">
+        <header className="bg relative h-[624px] sm:min-h-screen w-full flex justify-center">
             <div className="w-full max-w-7xl flex items-end pb-0 sm:pb-0 sm:grid sm:grid-cols-2 gap-2 sm:items-center px-4 sm:px-0">
                 <div className="flex flex-col gap-2 sm:gap-4 z-10">
                     <h1 className="lg:text-[44px] sm:text-4xl text-[24px] font-extrabold text-my jazmin">Uma aula que irá revelar <span className="grad-main">os segredos da Torah</span> capazes de criar uma <span className="grad-main">autoestima inabalável</span> e viver com um propósito certo</h1>
