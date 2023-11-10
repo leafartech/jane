@@ -12,8 +12,8 @@ export default function HeaderFlex() {
                         <p className="font-bold mt-2 sm:text-my text-white">100% gratuito para quem estiver online</p>
                     </div>
                 </div>
-                <img src="./images/bg8.png" alt="" className="h-full absolute top-0 right-0" />
-                {/* <img src="./images/bg2.webp" alt="" className="h-full absolute top-0 right-0" /> */}
+{/*                 <img src="./images/bg8.png" alt="" className="h-full absolute top-0 right-0" /> */}
+                <img src="./images/bg2.webp" alt="" className="h-full absolute top-0 right-0" />
             </div>
         </header>
     )
