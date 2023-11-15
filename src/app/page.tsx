@@ -17,7 +17,7 @@ export default function Page() {
             >
               <div className="flex flex-col gap-4 text-my text-lg font-medium">
                 <h2 className="text-4xl sm:text-5xl grad-main-2 jazmin font-bold">Para quem é?</h2>
-                <p className="">Esta aula foi projetada para pessoas que buscam uma <strong>transformação profunda</strong> em suas vidas, desejando explorar a <strong>riqueza interior</strong> através da <strong>sabedoria contida na Torahs</strong>. </p>
+                <p className="">Esta aula foi projetada para pessoas que buscam uma <strong>transformação profunda</strong> em suas vidas, desejando explorar a <strong>riqueza interior</strong> através da <strong>sabedoria contida na Torah</strong>. </p>
                 <p className="">Você será guiado através das narrativas do livro de Bereshit (Gênesis) na Torah, obtendo <strong>ferramentas essenciais</strong> para o desenvolvimento da <strong>autoestima, autoconfiança e uma mentalidade resiliente</strong>.</p>
                 <p className=""><strong>Esta é a sua oportunidade de criar uma riqueza interior</strong> que transcende o tempo, transformando sua jornada de vida de maneira perceptível pelo seu ciclo de amigos e familiares de forma rápida. </p>
                 <Button className="grad-main-bg-2">Destravar minha vaga</Button>
