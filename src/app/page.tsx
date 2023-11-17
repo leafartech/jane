@@ -77,7 +77,7 @@ export default function Page() {
               reverse={true}
             >
               <div className="flex flex-col gap-4 text-my text-lg font-medium">
-                <h2 className="text-3xl sm:text-5xl grad-main-2 jazmin font-bold">Sobre a Dra, Jane Krüger</h2>
+                <h2 className="text-3xl sm:text-5xl grad-main-2 jazmin font-bold">Sobre a Dra. Jane Krüger</h2>
                 <p className="">Psicanalista, Psicopedagoga, Doutora em Educação, Escritora, Pesquisadora, Professora e Teóloga. Atualmente está aprofundando suas pesquisas e estudos sobre comportamento humano e Sabedoria Milenar Judaica na Conservative Yeshiva FJC - Fuchsberg Jerusalem Center - Israel</p>
                 <Button className="grad-main-bg-2">Destravar minha vaga</Button>
               </div>
