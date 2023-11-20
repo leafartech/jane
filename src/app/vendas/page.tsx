@@ -118,7 +118,7 @@ export default function Page() {
                 </div>
             </header>
             <main>
-                <Section classNameS="bg pt-10 sm:pt-12 pb-6 sm:pb-16">
+                <Section classNameS="bg pt-16 sm:pt-12 pb-6 sm:pb-16">
                     <div className="max-w-3xl flex flex-col gap-6 items-center">
                         <h2 className="text-2xl sm:text-4xl text-left sm:text-center text-my jazmin font-bold">As aulas estão divididas em 3 pilares para você conseguir realmente ter uma transformação na sua vida:</h2>
                         {/* <Timeline texts={text} /> */}
