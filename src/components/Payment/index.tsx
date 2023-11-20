@@ -34,7 +34,7 @@ export default function PaymentCard() {
                         <h4 className="text-base font-semibold text-zinc-300">De R$ <span className="text-3xl line-through">8880,00</span> por</h4>
                         <h4 className="text-base font-semibold text-zinc-300">12x de R$ <span className="text-3xl text-white">100,39</span></h4>
                     </div>
-                    <h4 className="text-sm font-semibold text-zinc-300 sm:text-center  mt-2">ou 999,9 à vista</h4>
+                    <h4 className="text-sm font-semibold text-zinc-300 text-center  mt-2">ou 999,9 à vista</h4>
                 </div>
                 <a href="https://pay.kiwify.com.br/e799Pse" className="w-full grad-main-bg mb-2 py-3 sm:py-4 text-sm sm:text-base uppercase text-center rounded-xl sm:rounded-2xl text-white font-bold">Sim! Quero revelar a sabedoria da Torah</a>
                 <div className="flex justify-center mt-2 sm:mt-6">
