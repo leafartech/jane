@@ -125,7 +125,7 @@ export default function Page() {
                         <ul className="rounded-md p-6 border-4 border-[#dfba3e] ">
                             <li>
                                 <h3 className="relative jazmin text-2xl font-bold flex items-center ps-4 after:absolute after:h-[10px] after:w-[10px] after:bg-my after:rounded-full after:left-0">Aulas com conteúdo aprofundado sobre a Torah</h3>
-                                <p className=" ps-4">Você descobrirá os códigos secretos das Escrituras, promovendo uma maturidade espiritual duradoura e alcançando uma excelência plena em todas as áreas de suas vidas. Você terá acesso a toda teoria e ferramentas práticas que fortalecerão sua autoestima, cultivarão uma mentalidade resiliente e aprimorarão seus relacionamentos de maneira autêntica.</p>
+                                <p className=" ps-4">Você descobrirá os códigos secretos das Escrituras, promovendo uma maturidade espiritual duradoura e alcançando uma excelência plena em todas as áreas de suas vidas. Você terá acesso a toda teoria e ferramentas práticas que fortalecem sua autoestima, cultivam uma mentalidade resiliente e aprimoraram seus relacionamentos de maneira autêntica.</p>
                             </li>
                             <li>
                                 <h3 className="relative jazmin text-2xl font-bold flex items-center ps-4 after:absolute after:h-[10px] after:w-[10px] after:bg-my after:rounded-full after:left-0">Calendário de Metas Pessoais</h3>
