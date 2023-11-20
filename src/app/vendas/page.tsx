@@ -133,7 +133,7 @@ export default function Page() {
                             </li>
                             <li>
                                 <h3 className="relative jazmin text-2xl font-bold flex items-center ps-4 after:absolute after:h-[10px] after:w-[10px] after:bg-my after:rounded-full after:left-0">Diário de reflexões</h3>
-                                <p className=" ps-4">Você irá criar, a partir das aulas, um diário que vai além de simples páginas; é um portal para auto descobertas significativas. Ao documentar suas reflexões diárias, você abrirá caminho para uma compreensão mais profunda de si mesmo, identificando áreas de crescimento e reconhecendo suas vitórias</p>
+                                <p className=" ps-4">Você irá criar, a partir das aulas, um diário que vai além de simples páginas; é um portal para auto descobertas significativas. Ao documentar suas reflexões diárias, você abrirá caminho para uma compreensão mais profunda de si mesmo, identificando áreas de crescimento e reconhecendo suas vitórias.</p>
                             </li>
                         </ul>
                         <Button className="grad-secondary" href={true}>Quero transformar minha vida</Button>
