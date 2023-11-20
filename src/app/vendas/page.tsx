@@ -105,7 +105,7 @@ export default function Page() {
 
     return (
         <div className="relative">
-            <a href="https://wa.me/5542988218484?text=Ol%C3%A1%2C+estou+com+d%C3%BAvida+sobre+o+curso+%22Revelando+a+Sabedoria+da+Torah%22" className="fixed bottom-4 right-4 z-10">
+            <a href="https://wa.me/5542988218484?text=Ol%C3%A1%2C+estou+com+d%C3%BAvida+sobre+o+curso+%22Revelando+a+Sabedoria+da+Torah%22" className="fixed bottom-4 right-4 z-50">
                 <img src="./images/wpp.png" alt="" className="h-20 w-20" />
             </a>
             <header className="bg relative h-[648px] sm:min-h-screen w-full flex justify-center">
