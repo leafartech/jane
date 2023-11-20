@@ -25,7 +25,7 @@ export default function PaymentCard() {
                         <img src="./images/check.png" alt="" className="h-4 w-4 sm:h-6 sm:w-6 opacity-80" />
                         2 videoconferência para os primeiros</p>
                 </ul>
-                <div className="mb-4 -mt-4 sm:mt-0">
+                <div className="mb-4 -mt-2 sm:mt-0">
                     {/* <div className="flex flex-col sm:flex-row justify-between gap-2 py-4">
                         <h4 className="text-base font-semibold text-zinc-300">De R$ <span className="text-3xl line-through">8880,00</span> por</h4>
                         <h4 className="text-base font-semibold text-zinc-300">12x de R$ <span className="text-3xl text-white">100,39</span></h4>
