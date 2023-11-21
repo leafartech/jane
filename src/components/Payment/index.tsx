@@ -23,7 +23,7 @@ export default function PaymentCard() {
                         Diário de reflexões</p>
                     <p className="flex gap-3 items-center">
                         <img src="./images/check.png" alt="" className="h-4 w-4 sm:h-6 sm:w-6 opacity-80" />
-                        2 videoconferência para os primeiros</p>
+                        Duas videoconferências para os primeiros inscritos</p>
                 </ul>
                 <div className="mb-4 -mt-4 sm:mt-0">
                     {/* <div className="flex flex-col sm:flex-row justify-between gap-2 py-4">
